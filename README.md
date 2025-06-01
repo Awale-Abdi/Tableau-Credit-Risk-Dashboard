@@ -4,7 +4,7 @@
 
 This project was completed as a **solo assignment** for a graduate-level **Data Visualization** course using **Tableau**. Assigned the role of a **Credit Risk Manager** at a German bank, I built two **interactive dashboards** to explore customer credit risk—delivering targeted, actionable insights over general summaries.
 
-With only a few days to deliver, I made a **strategic decision to focus on the 65+ demographic**, a segment with unique credit behaviors often overlooked in mainstream analysis. Rather than dilute the impact with surface-level observations, I concentrated on extracting **nuanced trends** in credit behavior, housing status, employment, and foreign worker credit usage among seniors.
+With only a couple of days to deliver, I made a **strategic decision to focus on the 65+ demographic**, a segment with unique credit behaviors often overlooked in mainstream analysis. Rather than dilute the impact with surface-level observations, I concentrated on extracting **nuanced trends** in credit behavior, housing status, employment, and foreign worker credit usage among seniors.
 
 ---
 
