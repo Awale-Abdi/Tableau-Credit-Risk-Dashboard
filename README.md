@@ -48,6 +48,17 @@ Given a **tight turnaround of just a few days**, I made a strategic decision to 
 
 ---
 
+## 📁 Project Structure
+
+- `Datasets/`  
+  - `german credit card_better.xlsx` – unprocessed original credit data
+
+- `Outputs/`  
+  - `Simulation - Data-Driven Strategic Recommendations and Business Report by Awale Abdi.docx` – final business report with embedded dashboard screenshots, insights, and strategic recommendations  
+  > 📌 *Note: The report emphasizes the 65+ demographic for targeted insights due to the project's short timeline and stakeholder relevance.*
+
+---
+
 ## 🛠️ Tools Used
 
 - 📊 **Tableau** – interactive charts, filters, dashboard linking  
