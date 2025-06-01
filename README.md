@@ -2,49 +2,69 @@
 
 ## 📊 Overview
 
-This project was completed as a **solo assignment** for a graduate-level **Data Visualization** course using **Tableau**. Assigned the role of a **Credit Risk Manager** at a German bank, I designed two **interactive dashboards** to explore customer credit risk—delivering targeted, actionable insights instead of broad generalizations.
+This project was completed as a **solo assignment** for a graduate-level **Data Visualization** course using **Tableau**. Assigned the role of a **Credit Risk Manager** at a German bank, I built two **interactive dashboards** to explore customer credit risk—delivering targeted, actionable insights over general summaries.
 
-Given a **tight turnaround of just a few days**, I made a strategic decision to **focus the analysis on seniors aged 65 and above**, a population often overlooked in risk modeling. Rather than overwhelming stakeholders with surface-level summaries across all demographics, I tailored my analysis toward a demographic with distinctive behaviors and rising relevance—ensuring relevance and value in every insight delivered.
+With only a few days to deliver, I made a **strategic decision to focus on the 65+ demographic**, a segment with unique credit behaviors often overlooked in mainstream analysis. Rather than dilute the impact with surface-level observations, I concentrated on extracting **nuanced trends** in credit behavior, housing status, employment, and foreign worker credit usage among seniors.
 
 ---
 
 ## 🎯 Objective
 
-- Identify **risk profiles** most prone to default using the `good_bad` label
-- Analyze how **age**, **existing credit**, and **employment status** affect credit risk
-- Deliver **targeted recommendations** based on **interactive Tableau dashboards**
-- Leverage filter, hover, and parameter actions to guide stakeholder exploration
+- Identify risk profiles based on the `good_bad` credit status
+- Examine how **age**, **employment status**, and **existing credit** affect loan outcomes
+- Build **interactive Tableau dashboards** with filters, hover actions, and reference lines
+- Present **strategic recommendations** to guide risk mitigation and financial product design
 
 ---
 
 ## 🔍 Key Insights
 
-- Seniors (65+) demonstrate overwhelmingly **good credit behavior**, despite being a smaller subset of the dataset
-- **Skilled workers** and **Big Earners** surprisingly have mixed credit profiles, challenging assumptions that income equals creditworthiness
-- Seniors in **rented housing** are more **credit-constrained** and display higher risk, highlighting a need for rental-specific financial tools
-- **Unskilled and unemployed seniors**—although small in sample—show surprisingly positive credit behavior, suggesting a low-risk niche segment worth testing
+- Seniors (65+) demonstrate **conservative credit behavior**, with a higher share of favorable credit profiles.
+- Despite their low credit volumes, **unskilled and unemployed elderly workers** showed surprising creditworthiness—an overlooked opportunity for safe lending.
+- **Seniors in rental housing** appear more credit-constrained and have higher bad credit rates, signaling the need for flexible, risk-adjusted products.
+- Foreign-born elderly workers show **both risk and opportunity**, with higher credit use but mixed repayment trends.
+- There's an observed **shift toward ‘critical accounts’** among seniors, possibly tied to fixed retirement income and healthcare burdens.
 
 ---
 
 ## 📈 Dashboard Features
 
-- 🔗 **Two Tableau dashboards**, each with interactive charts
-- ✅ **Filter actions** to drill into credit types, age groups, and employment classes
-- ✅ **Hover actions** to show contextual detail without visual clutter
-- ✅ **Reference lines** using parameter controls for dynamic benchmarking
-- 🧭 Designed for **clear stakeholder navigation**, with visual storytelling focused on the 65+ demographic
+- 🔗 **Two Tableau dashboards**, each featuring multiple linked visualizations
+- ✅ **Filter actions** for drilling into demographics and risk segments
+- ✅ **Hover actions** for contextual tooltips
+- ✅ **Reference lines** tied to dynamic parameters
+- 🎯 **Dashboards designed around stakeholder utility**, not just visual flair
 
-> Dashboards are interactive and allow toggling between senior-specific insights and general population trends.
+> Dashboards are filtered for 65+ by default but allow toggling across all age groups for full interactivity.
 
 ---
 
 ## 🧾 Strategic Recommendations
 
-- **Senior Auto-Financing Plans** – Low-interest loans with extended terms to match fixed incomes  
-- **Financial Literacy Outreach** – Tailored workshops for seniors on credit, budgeting, and planning  
-- **Inclusive Credit Products** – Flexible tools for unskilled and unemployed seniors with strong repayment histories  
-- **Senior Credit Support Services** – Counseling and restructuring help for seniors in ‘critical account’ status  
-- **Rental-Specific Lending** – Specialized products for elderly renters without asset collateral
+- **Auto Financing Plans for Seniors** – Custom lending with low interest and extended terms  
+- **Financial Literacy Workshops** – Focused on credit use, debt management, and retirement planning  
+- **Inclusive Products for Low-Income Seniors** – Flexible repayment and tailored risk models  
+- **Support for Seniors with 'Critical Accounts'** – Counseling and negotiated repayment structures  
+- **Products for Elderly Renters** – Credit lines that don’t depend on asset ownership  
+
+These recommendations stem from Tableau-driven insights and align product strategy with real-world credit behaviors, especially within underserved segments.
+
+---
+
+## 🧠 Project Strategy & Stakeholder Focus
+
+> "This report delves into the complex landscape of credit distribution across demographics, with a specific focus on seniors aged 65 and above. By dissecting variables such as credit status, employment patterns, credit spending habits, and housing situations, we aimed to extract actionable insights for strategic credit management."
+
+To maximize value under time constraints, I **focused my report on the senior demographic**—a decision that avoided redundancy and gave stakeholders focused insights they likely hadn’t already considered. This approach shows **data storytelling under constraints** and the ability to translate analysis into **real-world policy suggestions**.
+
+---
+
+## 🛠️ Tools Used
+
+- **Tableau** – dashboards, filters, hovers, reference lines  
+- **Excel** – initial data prep and exploration  
+- **Microsoft Word** – full 1,500-word report with embedded screenshots  
+- **German Credit Dataset** – anonymized dataset with credit, employment, age, and housing data
 
 ---
 
@@ -55,27 +75,13 @@ Given a **tight turnaround of just a few days**, I made a strategic decision to 
 
 - `Outputs/`  
   - `Simulation - Data-Driven Strategic Recommendations and Business Report by Awale Abdi.docx` – final business report with embedded dashboard screenshots, insights, and strategic recommendations  
-  > 📌 *Note: The report emphasizes the 65+ demographic for targeted insights due to the project's short timeline and stakeholder relevance.*
-
----
-
-## 🛠️ Tools Used
-
-- 📊 **Tableau** – interactive charts, filters, dashboard linking  
-- 📑 **Excel** – for data cleanup and light preprocessing  
-- 📝 **MS Word** – for writing a ~1,500-word business report and packaging visuals for submission
-
----
-
-## 🧠 Why Focus on Seniors?
-
-In just a few days, **trying to generalize across all demographics would dilute actionable insights**. Instead, I zeroed in on the **65+ group**, providing management with **deep, focused takeaways** they may not already know—backed by targeted visuals and concise recommendations. This decision ensured every minute of stakeholder time added value and prompted meaningful follow-up questions.
+  > 📌 *Note: Report focuses on the 65+ demographic due to time constraints and stakeholder needs.*
 
 ---
 
 ## ⚠️ Limitations
 
-Due to the dataset’s **small sample size**, especially for seniors, this project serves as a **hypothesis-generating exercise**. All conclusions should be validated against broader datasets before institutional implementation.
+This dataset is relatively small and not statistically representative. All findings are meant to **generate hypotheses**, not policy. Larger-scale data validation is recommended before implementation.
 
 ---
 
