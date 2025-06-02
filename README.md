@@ -74,7 +74,7 @@ To maximize value under time constraints, I **focused my report on the senior de
   - `german credit card_better.xlsx` – unprocessed original credit data
 
 - `Outputs/`  
-  - `Data-Driven Strategic Recommendations and Business Report by Awale Abdi.docx` – final business report with embedded dashboard screenshots, insights, and strategic recommendations  
+  - `Data-Driven Strategic Recommendations and Business Report by Awale Abdi.pdf` – final business report with embedded dashboard screenshots, insights, and strategic recommendations  
   > 📌 *Note: Report focuses on the 65+ demographic due to time constraints and stakeholder needs.*
 
 ---
